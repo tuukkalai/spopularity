@@ -16,7 +16,13 @@ conda env create --name spopularity --file=environments.yml
 mv credentials_example.json credentials.json
 ```
 
-3. Change `client_id` and `client_secret` credentials in the `credentials.json` -file.
+3. Change credentials in the `credentials.json` -file.
+
+ ```txt
+client_id       Spotify WebAPI client_id
+client_secret   Spotify WebAPI client_secret
+rapid-api-key   Key for Rapid API (https://rapidapi.com/LDVIN/api/billboard-api/)
+```
 
 ## Running the project
 
